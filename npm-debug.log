@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'webpack-devserver' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 verbose run-script [ 'prewebpack-devserver',
+4 verbose run-script   'webpack-devserver',
+4 verbose run-script   'postwebpack-devserver' ]
+5 info lifecycle note-app@1.0.0~prewebpack-devserver: note-app@1.0.0
+6 silly lifecycle note-app@1.0.0~prewebpack-devserver: no script for prewebpack-devserver, continuing
+7 info lifecycle note-app@1.0.0~webpack-devserver: note-app@1.0.0
+8 verbose lifecycle note-app@1.0.0~webpack-devserver: unsafe-perm in lifecycle true
+9 verbose lifecycle note-app@1.0.0~webpack-devserver: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Dom\Desktop\Projects\note-app\node_modules\.bin;C:\Users\Dom\.babun\cygwin\home\Dom\.local\bin;C:\Users\Dom\.babun\cygwin\usr\local\bin;C:\Users\Dom\.babun\cygwin\home\Dom\.local\bin;C:\Users\Dom\.babun\cygwin\usr\local\bin;C:\Users\Dom\.babun\cygwin\bin;C:\Program Files (x86)\HP\NV\lib\shunra\vcat;C:\Python27\Lib\site-packages\PyQt4;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\ActiveState Komodo IDE 9;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Skype\Phone;C:\Program Files (x86)\Zend\ZendServer\share\ZendFramework\bin;C:\Program Files (x86)\Zend\ZendServer\bin;C:\Program Files (x86)\Zend\MySQL55\bin;C:\Program Files (x86)\HP\NV\lib\thirdparty\safenet\LDK\7.0;C:\Program Files (x86)\HP\NV\lib\shunra\snv;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Users\Dom\AppData\Local\Programs\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;D:\;C:\Program Files\nodejs;C:\Windows\System32;C:\Python27;C:\Python27\python.exe;C:\Python27\Scripts;C:\Python27\Lib\site-packages\django\bin;C:\Python27\Scripts;C:\Program Files\Java\jdk1.8.0_51\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Dom\AppData\Local\Programs\Git\cmd;C:\Qt\5.6;C:\Qt\5.6\msvc2013_64;C:\Python27\Scripts\django-admin.py;C:\Users\Dom\.babun;D:\Nmap;D:\Microsoft VS Code\bin;C:\Users\Dom\AppData\Roaming\npm
+10 verbose lifecycle note-app@1.0.0~webpack-devserver: CWD: C:\Users\Dom\Desktop\Projects\note-app
+11 silly lifecycle note-app@1.0.0~webpack-devserver: Args: [ '/d /s /c',
+11 silly lifecycle   'webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 0.0.0.0' ]
+12 silly lifecycle note-app@1.0.0~webpack-devserver: Returned: code: 1  signal: null
+13 info lifecycle note-app@1.0.0~webpack-devserver: Failed to exec webpack-devserver script
+14 verbose stack Error: note-app@1.0.0 webpack-devserver: `webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 0.0.0.0`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid note-app@1.0.0
+16 verbose cwd C:\Users\Dom\Desktop\Projects\note-app
+17 error Windows_NT 6.1.7601
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "webpack-devserver"
+19 error node v6.10.0
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error note-app@1.0.0 webpack-devserver: `webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 0.0.0.0`
+22 error Exit status 1
+23 error Failed at the note-app@1.0.0 webpack-devserver script 'webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 0.0.0.0'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the note-app package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 0.0.0.0
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs note-app
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls note-app
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
